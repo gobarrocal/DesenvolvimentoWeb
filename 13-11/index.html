@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <p>Selecione um radio button e clique em enviar</p>
+      <input type="radio" name="gender" value="Masculino" /> Masculino
+      <input type="radio" name="gender" value="Feminino" /> Feminino
+      <input type="radio" name="gender" value="Feminino" /> Outro
+      <br></br>
+      <button type="button" onclick="displayRadioValue()">Enviar</button>
+      <div id="result"></div>
+    </div>
+    <br></br>
+    <div>
+      <div>
+        <h2>Qual elemento da lista foi selecionado?</h2>
+        <p>
+          Selecione uma das opções de plano:
+          <select id="select1">
+            <option value="free">Free</option>
+            <option value="basic">Basic</option>
+            <option value="premium">Premium</option>
+          </select>
+        </p>
+        <p>
+          O valor selecionado é:
+          <span class="output"></span>
+        </p>
+        <button onclick="getOptions()">Veja a seleção</button>
+      </div>
+    </div>
+
+    <div>
+      <h2>Elementos check</h2>
+      <p>Quais suas priooridade?</p>
+      <p>Trabalho<input type="checkbox" name="work" value="work" id="w" /></p>
+      <p>Estudos<input type="checkbox" name="study" value="study" id="s" /></p>
+      <p>Saude<input type="checkbox" name="health" value="health" id="h" /></p>
+      <p>
+        <button onclick="getCheckedBox()">Enviar</button>
+      </p>
+      <p>Minhas prioridades são: <span id="pri">...</span></p>
+    </div>
+  </body>
+</html>
+<script src="/13-11/js/main.js"></script>
