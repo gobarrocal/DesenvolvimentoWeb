@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(191, 222, 241);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    
+}
+
+/* div{
+border-style: solid;
+} */
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.menu{
+    background-color: lightblue;
+    padding: 2rem;
+}
+.conteudo {
+    background-color: rgb(174, 209, 218);
+    padding: 2rem;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.item-menu{
+    padding: 0.6rem;
+    margin-bottom: 0.7rem 0.7rem 0.7rem 0.7rem;
+}
+
+.item-menu:hover{
+    background-color: rgb(104, 179, 223);
+}

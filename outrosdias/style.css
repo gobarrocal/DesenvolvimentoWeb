@@ -1,0 +1,11 @@
+/* seletor de elemento */
+body {
+    color: white;
+}
+
+#mesmo{
+    color: cyan;
+}
+.myclass{
+    border-style: gray;
+}
